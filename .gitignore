@@ -1,0 +1,4 @@
+*.log
+*.vscode/*
+lib/bundle.js
+node_modules

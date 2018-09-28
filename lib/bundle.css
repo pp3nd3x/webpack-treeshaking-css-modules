@@ -1,0 +1,25 @@
+/**
+ * componentthree.css
+ * ==================
+ * CSS is NOT tree-shaked even "ComponentThree" it not used because of those sideEffects settings:
+ * ./src/components.js
+ * ./src/ComponentThree/ComponentThree.js
+ * ./src/ComponentThree/componentthree.css
+ */
+body {
+  background-color: peru;
+}
+
+.componentthree__root {
+  color: yellow;
+}
+
+/* 
+ * componentone.css
+ * ================
+ * CSS is NOT tree-shaked because ComponentOne is being used
+ */
+.componentone__root {
+  color: blue;
+}
+

@@ -1,0 +1,8 @@
+/* 
+ * componentone.css
+ * ================
+ * CSS is tree-shaked because ComponentTwo is NOT being used
+ */
+.root {
+  color: green;
+}

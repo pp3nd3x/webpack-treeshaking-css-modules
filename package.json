@@ -1,0 +1,45 @@
+{
+  "name": "webpack-treeshaking-css-modules-demo",
+  "version": "1.0.0",
+  "description": "Webpack treeshaking css modules demo",
+  "main": "lib/index.js",
+  "sideEffects": [
+    "./src/components.js",
+    "./src/ComponentThree/ComponentThree.js",
+    "./src/ComponentThree/componentthree.css"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "7.0.0-beta.50",
+    "@babel/preset-env": "7.0.0-beta.50",
+    "@babel/preset-es2015": "7.0.0-beta.50",
+    "@babel/preset-react": "7.0.0-beta.50",
+    "@babel/preset-stage-0": "7.0.0-beta.50",
+    "@babel/register": "7.0.0-beta.50",
+    "assets-webpack-plugin": "^3.8.4",
+    "babel-loader": "8.0.0-beta.0",
+    "css-loader": "0.28.11",
+    "mini-css-extract-plugin": "0.4.1",
+    "optimize-css-assets-webpack-plugin": "4.0.3",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "webpack": "4.14.0",
+    "webpack-bundle-analyzer": "2.13.1",
+    "webpack-cli": "3.1.0"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "treeshaking",
+    "css",
+    "modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pp3nd3x/webpack-treeshaking-css-modules"
+  },
+  "author": "pp3nd3x",
+  "license": "ISC"
+}

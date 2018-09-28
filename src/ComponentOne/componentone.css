@@ -1,0 +1,8 @@
+/* 
+ * componentone.css
+ * ================
+ * CSS is NOT tree-shaked because ComponentOne is being used
+ */
+.root {
+  color: blue;
+}
